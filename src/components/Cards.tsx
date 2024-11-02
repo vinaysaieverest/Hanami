@@ -168,7 +168,7 @@ export const Card = ({
                   </button>
                 )}
                 <button onClick={handleLikeClick} className="wishListButton">
-                <img className="heartImage" alt="not found"  src={isAddedToWishList ? 'Hanami//assets/likedImage.png' : 'Hanami/assets/unLikedImage.png'} />
+                <img className="heartImage" alt="not found"  src={isAddedToWishList ? '/Hanami/assets/likedImage.png' : '/Hanami/assets/unLikedImage.png'} />
                 </button>
               </div>
             </div>
