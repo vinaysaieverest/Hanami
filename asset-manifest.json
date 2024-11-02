@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Hanami/static/css/main.c3ef8558.css",
-    "main.js": "/Hanami/static/js/main.79da5124.js",
+    "main.js": "/Hanami/static/js/main.445df9ac.js",
     "static/js/453.f69b133b.chunk.js": "/Hanami/static/js/453.f69b133b.chunk.js",
     "index.html": "/Hanami/index.html",
     "main.c3ef8558.css.map": "/Hanami/static/css/main.c3ef8558.css.map",
-    "main.79da5124.js.map": "/Hanami/static/js/main.79da5124.js.map",
+    "main.445df9ac.js.map": "/Hanami/static/js/main.445df9ac.js.map",
     "453.f69b133b.chunk.js.map": "/Hanami/static/js/453.f69b133b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3ef8558.css",
-    "static/js/main.79da5124.js"
+    "static/js/main.445df9ac.js"
   ]
 }
