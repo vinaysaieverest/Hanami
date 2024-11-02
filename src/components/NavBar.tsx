@@ -23,7 +23,7 @@ export const Button = ({ logo, login  }: Htype) => {
   return (
     <div className="header">
       <div className="logo">
-        <img  className="logo-image" src="/assets/hanami.jpg" alt="not found"  onClick={goToHome} />
+        <img  className="logo-image" src="/Hanami/assets/hanami.jpg" alt="not found"  onClick={goToHome} />
       </div>
       <div className="search_div">
         <input placeholder="Search items" className="search_placeholder"  onChange={(e)=>setSearch(e.target.value.toLocaleLowerCase())} />

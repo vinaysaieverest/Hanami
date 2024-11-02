@@ -142,7 +142,7 @@ export const Products = ({ Data1 }: ProductsProps) => {
           <button onClick={liked} className="single-like-button">
             <img
               className="heartImage"
-              src={a?.isAddedToWishList ? '/assets/likedImage.png': '/assets/unLikedImage.png'}
+              src={a?.isAddedToWishList ? '/Hanami/assets/likedImage.png': '/Hanami/assets/unLikedImage.png'}
               alt="not found"
             />
           </button>

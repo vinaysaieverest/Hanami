@@ -79,6 +79,9 @@ export const Card = ({
       added()
       handleAddToCartHome(id);
       updateCart()
+      setIsAddedToCartHome(true)
+      
+      console.log(isAddedToCartFromHome)
      
       
     
@@ -111,7 +114,7 @@ export const Card = ({
               </div>
               <div className="cardDetails">
                 {isavailable ? (
-                  isAddedToCartFromHome ? (
+                  isAddedToCartHome ? (
                     <>
                       <button className="button_add_to_cart" onClick={addedItems}>
                         Go to Cart
@@ -131,7 +134,7 @@ export const Card = ({
               
                 )}
                 <button onClick={handleLikeClick} className="wishListButton">
-                  <img className="heartImage" alt="not found"  src={isAddedToWishList ? '/assets/likedImage.png' : 'assets/unLikedImage.png'} />
+                  <img className="heartImage" alt="not found"  src={isAddedToWishList ? '/Hanami/assets/likedImage.png' : '/Hanami/assets/unLikedImage.png'} />
                 </button>
               </div>
             </div>
@@ -148,7 +151,7 @@ export const Card = ({
               </div>
               <div className="cardDetails">
                 {isavailable ? (
-                  isAddedToCartFromHome ? (
+                  isAddedToCartHome ? (
                     <>
                       <button className="button_add_to_cart" onClick={addedItems}>
                         Go to Cart
@@ -165,7 +168,7 @@ export const Card = ({
                   </button>
                 )}
                 <button onClick={handleLikeClick} className="wishListButton">
-                <img className="heartImage" alt="not found"  src={isAddedToWishList ? '/assets/likedImage.png' : 'assets/unLikedImage.png'} />
+                <img className="heartImage" alt="not found"  src={isAddedToWishList ? 'Hanami//assets/likedImage.png' : 'Hanami/assets/unLikedImage.png'} />
                 </button>
               </div>
             </div>
